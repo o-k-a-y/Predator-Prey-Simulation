@@ -1,11 +1,13 @@
-Write a program in any OOP language a simple two-dimensional predator-prey simulation.
-For the simulation, you will have the prey be some number (​ r ​ ) of roadrunners and the
-predators are some number of coyotes (c). The agents (both prey and predator) exist in a
-bound n x m uniformly space grid environment. Only one agent may occupy a cell of the
-grid at any given time. The environment is bounded, thus agents cannot move outside of
-the grid area.
-For every time step in the simulation, every agent will make an action based on its current
-state, and the states of various cells near the agent.
+A simple two-dimensional predator-prey simulation.
+The prey are some number (r) of roadrunners and the predators are some number of coyotes (c).
+
+The agents (both prey and predator) exist in a bound n x m uniformly space grid environment. 
+
+Only one agent may occupy a cell of the grid at any given time.
+
+The environment is bounded, thus agents cannot move outside of the grid area.
+
+For every time step in the simulation, every agent will make an action based on its current state, and the states of various cells near the agent.
 
 Roadrunners
 	● Move If no coyote is in an adjacent cell, move in a random direction by 1 cell. If
