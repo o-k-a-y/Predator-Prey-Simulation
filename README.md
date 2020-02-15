@@ -22,7 +22,6 @@ in an adjacent cell, move in a random direction by 1 cell.
 ● Breed After the 8th time step, spawn a new coyote as we do roadrunners.
 ● Die If a coyote goes
 
-
 Install:
 	make
 
