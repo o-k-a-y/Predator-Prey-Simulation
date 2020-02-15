@@ -18,12 +18,13 @@ If at the end of a 3rd consecutive time step, there is a free adjacent cell, a n
 If at any time a coyote occupies the same cell as a roadrunner, the roadrunner
 dies.
 
-Coyotees
-● Move Every time step, if there is an adjacent roadrunner, then move to that cell. If
-that cell is still occupied after the move, then eat the roadrunner. If no roadrunner is
-in an adjacent cell, move in a random direction by 1 cell.
-● Breed After the 8th time step, spawn a new coyote as we do roadrunners.
-● Die If a coyote goes
+# Coyotees
+## Move
+Every time step, if there is an adjacent roadrunner, then move to that cell. If that cell is still occupied after the move, then eat the roadrunner. If no roadrunner is in an adjacent cell, move in a random direction by 1 cell.
+## Breed
+After the 8th time step, spawn a new coyote as we do roadrunners.
+## Die
+If a coyote goes 4 steps without eating a roadrunner, it dies before the start of the next step.
 
 Install:
 	make
