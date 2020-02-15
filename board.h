@@ -89,10 +89,10 @@ class Board
 		int timeStep;								// the time step we are on
 		int areaOfBoard;							// number of rows * columns
 		int rows;    								// y dimension of the board
-        int columns;     							// x dimension of the board
-        int roadrunners;    						// number of roadrunners
-        int coyotes;        						// number of coyotes
-        int iterations;     						// number of iterations to run 
+		int columns;     							// x dimension of the board
+		int roadrunners;    						// number of roadrunners
+		int coyotes;        						// number of coyotes
+		int iterations;     						// number of iterations to run 
 		
 };
 
